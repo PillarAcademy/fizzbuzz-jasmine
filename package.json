@@ -6,10 +6,13 @@
   "author": "Gregory Haskins <greg@greghaskins.com>",
   "license": "MIT",
   "scripts": {
+    "tdd": "chokidar lib/**/*.js spec/**/*.js -c 'yarn test'",
     "test": "jasmine"
   },
   "dependencies": {},
   "devDependencies": {
-    "jasmine": "^2.5.3"
+    "chokidar-cli": "^1.2.0",
+    "jasmine": "^2.5.3",
+    "yarn": "^0.20.3"
   }
 }
