@@ -1,0 +1,15 @@
+{
+  "name": "fizzbuzz-jasmine",
+  "version": "1.0.0",
+  "description": "FizzBuzz kata with Jasmine tests",
+  "main": "index.js",
+  "author": "Gregory Haskins <greg@greghaskins.com>",
+  "license": "MIT",
+  "scripts": {
+    "test": "jasmine"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "jasmine": "^2.5.3"
+  }
+}
